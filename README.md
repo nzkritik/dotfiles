@@ -1,2 +1,2 @@
 # dotfiles
-various dconfig files for linux
+various config files for linux
