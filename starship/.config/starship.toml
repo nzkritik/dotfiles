@@ -116,6 +116,8 @@ fg_5 = '#2E3436'
 bg_5 = '#D7D700'
 fg_6='#2E3436'
 bg_6='#FFFF00'
+text = "#cdd6f4"
+surface0 = "#313244"
 
 [palettes.firefly]
 success_fg = 'green'
