@@ -26,3 +26,5 @@ for m in $(hyprctl monitors -j | jq -r '.[] | .name'); do
 done
 
 hyprctl dispatch focusmonitor $focused
+
+# Tweaked version to use neo-matrix as the screensaver.
