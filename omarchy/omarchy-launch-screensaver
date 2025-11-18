@@ -22,7 +22,7 @@ for m in $(hyprctl monitors -j | jq -r '.[] | .name'); do
   hyprctl dispatch exec -- \
     alacritty --class Screensaver \
     --config-file ~/.local/share/omarchy/default/alacritty/screensaver.toml \
-    -e neo-matrix -async --shadingmode=1 --defaultbg --colormode=16
+    -e neo-matrix --defaultbg --colormode=16
 done
 
 hyprctl dispatch focusmonitor $focused
